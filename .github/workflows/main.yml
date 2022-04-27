@@ -14,6 +14,7 @@ jobs:
       run: |
         msbuild -p:configuration=release -p:platform=x64 -p:platformToolset=v142
         msbuild -p:configuration="Release (lite)" -p:platform=x64 -p:platformToolset=v142
+        
       
     - name: Get current time
       uses: 1466587594/current-time@v1
